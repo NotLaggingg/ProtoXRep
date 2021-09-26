@@ -1,1 +1,1 @@
-print("notreleasedkid")
+game.Players.LocalPlayer:Kick("\nNot released yet\ndiscord.gg/pmyNKwdyqc")
