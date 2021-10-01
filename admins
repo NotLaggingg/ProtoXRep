@@ -1,5 +1,6 @@
 local userids = {
-	609282484,
+	609282484,--lagginq
+	404495,--bodies
 }
 function loadlol()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
@@ -7,14 +8,6 @@ function loadlol()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)--admins emoji
-				end
-			end
-		else
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					--if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-						Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)--default emoji
-					--end
 				end
 			end
 		end
