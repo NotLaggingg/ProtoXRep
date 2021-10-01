@@ -12,9 +12,9 @@ function loadlol()
 		else
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					--if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
 						Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)--default emoji
-					end
+					--end
 				end
 			end
 		end
