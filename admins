@@ -1,4 +1,24 @@
 local admins = {
-609282484,
+	609282484,
 }
+function loadlol()
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(admins, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)--admins emoji
+				end
+			end
+		else
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+						Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)--default emoji
+					end
+				end
+			end
+		end
+	end
+end
+local success,err = pcall(loadlol)
 return admins
