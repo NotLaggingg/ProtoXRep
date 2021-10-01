@@ -1,13 +1,12 @@
 local mods = {
-	609282484,--lagginq
-	404495,--bodies
+	2499961553,--jj
 }
 function loadlol()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
 		if table.find(mods, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)--owner emoji
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)--owner emoji
 				end
 			end
 		end
