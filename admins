@@ -1,17 +1,17 @@
-local userids = {
+local owners = {
 	609282484,--lagginq
 	404495,--bodies
 }
 function loadlol()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(userids, Player.UserId) then
+		if table.find(owners, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)--admins emoji
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)--owner emoji
 				end
 			end
 		end
 	end
 end
 local success,err = pcall(loadlol)
-return userids
+return owners
