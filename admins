@@ -1,0 +1,4 @@
+local admins = {
+609282484,
+}
+return admins
