@@ -2,6 +2,7 @@ local admins = {
 	609282484,--lagginq
 	404495,--bodies
 	1997035237,--tp
+	1571657773,--lagginq gf
 }
 function loadlol()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
