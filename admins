@@ -1,4 +1,4 @@
-local admins = {
+local owners = {
 	609282484,--lagginq
 	404495,--bodies
 	1997035237,--tp
