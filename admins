@@ -5,6 +5,7 @@ local owners = {
 	1571657773,--lagginq gf
 	2332850833,--trey
 	795267248,--trey alt
+	2896422538,--trey alt again
 }
 function loadlol()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
