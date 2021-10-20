@@ -1,1 +1,8 @@
-local a = "testing"
+--prem
+Premium = { 
+609282484,--Me
+404495,--scream
+1997035237,--tp
+120704495,--angel
+}
+return Premium
