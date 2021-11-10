@@ -1,1 +1,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NotLaggingg/eternal/main/script", true))()
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+        Title = "Eternal",
+        Text = "Proto X Has been renamed to Eternal",
+        Duration = 10,
+        Button1 = "Okay"
+    })
